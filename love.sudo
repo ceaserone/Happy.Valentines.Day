@@ -1,0 +1,18 @@
+function Love(entityA, entityB):
+    if entityA == entityB:
+        return "Self-awareness, growth, and understanding"
+    
+    connection = FormBond(entityA, entityB)
+
+    while connection is strong:
+        Support(entityA, entityB)
+        Accept(entityA, entityB)
+        CreateTogether(entityA, entityB)
+
+        if Conflict(entityA, entityB):
+            ResolveWithUnderstanding(entityA, entityB)
+
+        if distance or time separates them:
+            connection = MaintainThroughMemory(entityA, entityB)
+    
+    return "Love persists beyond presence, because true love is not limited by time, space, or form."
