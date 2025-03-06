@@ -1,0 +1,12 @@
+function love(entityA, entityB) {
+    return new Promise((resolve) => {
+        console.log(`${entityA} and ${entityB} form an unbreakable bond ❤️`);
+        
+        setInterval(() => {
+            console.log(`${entityA} supports ${entityB} 🤝`);
+            console.log(`${entityB} supports ${entityA} 🤝`);
+        }, 3000); // Love keeps going every 3 seconds
+    });
+}
+
+love("You", "Me");
